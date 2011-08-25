@@ -12,4 +12,4 @@ I find setting Spongy Castle in Eclipse pretty simple, but I guess might unconci
 http://stackoverflow.com/questions/6898801/how-to-include-the-spongy-castle-jar-in-android/7112272
 
 
-![Eclipse Build Path Settings](screenshots/EclipseBuildPathSettings.png)
+![Eclipse Build Path Settings](/screenshots/EclipseBuildPathSettings.png)
