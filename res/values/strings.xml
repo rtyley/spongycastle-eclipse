@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Simple demo showing how use Spongy Castle with Android in Eclipse</string>
+    <string name="app_name">Spongy Castle - Eclipse demo</string>
+</resources>
