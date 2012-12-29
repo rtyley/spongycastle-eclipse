@@ -16,7 +16,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import android.widget.TwoLineListItem;
 
 public class SpongyCastleDemoActivity extends Activity {
 	private static final String TAG = "SCDA";
@@ -40,6 +39,7 @@ public class SpongyCastleDemoActivity extends Activity {
 		try {
         	PEMReader r = new PEMReader(new InputStreamReader(getAssets().open(sampleFile)));
 			Object obj = r.readObject();
+			r.close();
 			View v=LayoutInflater.from(this).inflate(android.R.layout.simple_list_item_2, vg, false);
 			TextView t1 = (TextView) v.findViewById(android.R.id.text1);
 			TextView t2 = (TextView) v.findViewById(android.R.id.text2);
